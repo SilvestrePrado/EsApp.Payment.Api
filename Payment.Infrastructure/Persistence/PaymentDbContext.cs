@@ -19,6 +19,8 @@ namespace Payment.Infrastructure.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<PaymentOperation>().HasKey(p => p.Id);
+            modelBuilder.Entity<PaymentOperation>().HasIndex(p => p.ExternalOperationId).IsUnique();
             base.OnModelCreating(modelBuilder);
         }
     }

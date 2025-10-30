@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Api", "Payment.Api\Payment.Api.csproj", "{917F5E8A-443B-4235-A8C4-313A123A8AB4}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Domain", "Payment.Domain\Payment.Domain.csproj", "{8A92B942-D18B-4DE5-9F26-2BADD5D06A1A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Infrastructure", "Payment.Infrastructure\Payment.Infrastructure.csproj", "{BF573EFA-B283-4716-A0B4-E52648936DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskSimulatorApp", "RiskSimulatorApp\RiskSimulatorApp.csproj", "{E1D2113F-5DF0-4649-89E7-B071E49FA3DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BF573EFA-B283-4716-A0B4-E52648936DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF573EFA-B283-4716-A0B4-E52648936DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF573EFA-B283-4716-A0B4-E52648936DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D2113F-5DF0-4649-89E7-B071E49FA3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D2113F-5DF0-4649-89E7-B071E49FA3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D2113F-5DF0-4649-89E7-B071E49FA3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D2113F-5DF0-4649-89E7-B071E49FA3DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
